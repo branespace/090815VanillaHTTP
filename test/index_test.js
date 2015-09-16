@@ -52,7 +52,7 @@ describe('post route', function () {
             });
     });
     it('should return a greeting string from POST', function () {
-        var expected = 'Who do you think I am, greg? ' +
+        var expected = 'Who do you think I am, Greg? ' +
             'The postman???!?!?!?11oneoneone';
         expect(res.text).to.be.equal(expected);
     });
